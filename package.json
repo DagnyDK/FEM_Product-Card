@@ -1,0 +1,20 @@
+{
+  "name": "card-challenge",
+  "version": "1.0.0",
+  "description": "FrontendMentor card challenge",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass scss/main.scss css/style.css -w",
+    "compileSass": "sass scss/main.scss style.css --style=compressed --embed-sources",
+    "devserver": "live-server --browser=firefox",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "keywords": [ ],
+  "author": "Dagny Kight",
+  "license": "ISC",
+  "dependencies": {
+    "devserver": "^0.2.5",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9"
+  }
+}
