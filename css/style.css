@@ -21,10 +21,10 @@ html {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: #fff;
-  border: 2px #000;
+  border: 2px solid #000;
 }
 
-.image-box {
+.inner-box {
   grid-area: 2/2/3/3;
 }
 
