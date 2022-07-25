@@ -1,0 +1,17 @@
+.bg-crm {
+  background-color: $cream-bg;
+}
+
+.perfume-box {
+  display: grid;
+  grid-template-columns: 1fr 40% 1fr;
+  grid-template-rows: 1fr 55% 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #fff;
+  border: 2px #000;
+  }
+
+  .image-box { 
+    grid-area: 2 / 2 / 3 / 3; 
+  }
